@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../Transmitter_Source_Code/ips/transmitter_system_clock_pll" \
+"../../../../../Transmitter_Source_Code/src/debounce.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

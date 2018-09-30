@@ -1,0 +1,29 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../Transmitter_Source_Code/ips/transmitter_system_clock_pll" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter_common_reset.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter_common.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter_gt_usrclk_source.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter_support.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter_cpll_railing.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter/example_design/transmitter_tx_startup_fsm.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter/example_design/transmitter_rx_startup_fsm.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter_init.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter_gt.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter_multi_gt.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter/example_design/transmitter_sync_block.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter/transmitter.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter_system_clock_pll/transmitter_system_clock_pll_clk_wiz.v" \
+"../../../../../Transmitter_Source_Code/ips/transmitter_system_clock_pll/transmitter_system_clock_pll.v" \
+"../../../../../Transmitter_Source_Code/src/clock.v" \
+"../../../../../Transmitter_Source_Code/src/data_gen.v" \
+"../../../../../Transmitter_Source_Code/src/prbs_any.v" \
+"../../../../../Transmitter_Source_Code/src/reset.v" \
+"../../../../../Transmitter_Source_Code/src/syn_block.v" \
+"../../../../../Transmitter_Source_Code/src/top.v" \
+"../../../../../Transmitter_Source_Code/sim/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

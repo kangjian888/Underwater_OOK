@@ -1,0 +1,44 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter_common_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_common_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter_common.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_common
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter_gt_usrclk_source.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_GT_USRCLK_SOURCE
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter_support.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_support
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter_cpll_railing.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_cpll_railing
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter/example_design/transmitter_tx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_TX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter/example_design/transmitter_rx_startup_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_RX_STARTUP_FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_GT
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter_multi_gt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_multi_gt
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter/example_design/transmitter_sync_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_sync_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter/transmitter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter_system_clock_pll/transmitter_system_clock_pll_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_system_clock_pll_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/transmitter_system_clock_pll/transmitter_system_clock_pll.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module transmitter_system_clock_pll
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/data_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/prbs_any.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PRBS_ANY
+WARNING: [VRFC 10-2292] extra semicolon is not allowed here in this dialect. Use SystemVerilog mode [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/prbs_any.v:128]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/reset.v" into library xil_defaultlib
+WARNING: [VRFC 10-998] macro DLY redefined [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/reset.v:9]
+INFO: [VRFC 10-311] analyzing module reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/syn_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module syn_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/sim/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb

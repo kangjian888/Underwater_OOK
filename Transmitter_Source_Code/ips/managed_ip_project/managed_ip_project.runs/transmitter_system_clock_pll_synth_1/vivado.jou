@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Sep 17 18:05:25 2018
+# Process ID: 20348
+# Current directory: C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/managed_ip_project/managed_ip_project.runs/transmitter_system_clock_pll_synth_1
+# Command line: vivado.exe -log transmitter_system_clock_pll.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source transmitter_system_clock_pll.tcl
+# Log file: C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/managed_ip_project/managed_ip_project.runs/transmitter_system_clock_pll_synth_1/transmitter_system_clock_pll.vds
+# Journal file: C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/ips/managed_ip_project/managed_ip_project.runs/transmitter_system_clock_pll_synth_1\vivado.jou
+#-----------------------------------------------------------
+source transmitter_system_clock_pll.tcl -notrace

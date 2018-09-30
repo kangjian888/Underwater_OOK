@@ -1,0 +1,394 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 28956 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 417.957 ; gain = 99.918
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/top.v:12]
+INFO: [Synth 8-638] synthesizing module 'syn_block' [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/syn_block.v:13]
+	Parameter INITIALISE bound to: 1'b0 
+	Parameter DEPTH bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'FDRE' [F:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:3964]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (1#1) [F:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'syn_block' (2#1) [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/syn_block.v:13]
+INFO: [Synth 8-638] synthesizing module 'clock' [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/clock.v:9]
+	Parameter SFP_MGT_CLK_SET0_P bound to: 0 - type: integer 
+	Parameter SFP_MGT_CLK_SET1_P bound to: 0 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'IBUFGDS' [F:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:19906]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+INFO: [Synth 8-256] done synthesizing module 'IBUFGDS' (3#1) [F:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:19906]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [F:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (4#1) [F:/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-638] synthesizing module 'transmitter_system_clock_pll' [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter/Transmitter.runs/synth_1/.Xil/Vivado-31160-DESKTOP-B3RT09T/realtime/transmitter_system_clock_pll_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'transmitter_system_clock_pll' (5#1) [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter/Transmitter.runs/synth_1/.Xil/Vivado-31160-DESKTOP-B3RT09T/realtime/transmitter_system_clock_pll_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'clock' (6#1) [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/clock.v:9]
+INFO: [Synth 8-638] synthesizing module 'reset' [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/reset.v:11]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/reset.v:17]
+INFO: [Synth 8-5534] Detected attribute (* ASYNC_REG = "TRUE" *) [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/reset.v:18]
+INFO: [Synth 8-256] done synthesizing module 'reset' (7#1) [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/reset.v:11]
+INFO: [Synth 8-638] synthesizing module 'transmitter' [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter/Transmitter.runs/synth_1/.Xil/Vivado-31160-DESKTOP-B3RT09T/realtime/transmitter_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'transmitter' (8#1) [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter/Transmitter.runs/synth_1/.Xil/Vivado-31160-DESKTOP-B3RT09T/realtime/transmitter_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'data_gen' [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/data_gen.v:10]
+	Parameter PRBS_LENGTH bound to: 20 - type: integer 
+	Parameter INV_PATTERN bound to: 1 - type: integer 
+	Parameter POLY_LENGHT bound to: 9 - type: integer 
+	Parameter POLY_TAP bound to: 5 - type: integer 
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter SEND_COMMA bound to: 1 - type: integer 
+	Parameter SEND_HEAD bound to: 2 - type: integer 
+	Parameter SEND_PRBS bound to: 3 - type: integer 
+	Parameter SEND_TAIL bound to: 4 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'PRBS_ANY' [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/prbs_any.v:109]
+	Parameter CHK_MODE bound to: 0 - type: integer 
+	Parameter INV_PATTERN bound to: 1 - type: integer 
+	Parameter POLY_LENGHT bound to: 9 - type: integer 
+	Parameter POLY_TAP bound to: 5 - type: integer 
+	Parameter NBITS bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'PRBS_ANY' (9#1) [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/prbs_any.v:109]
+INFO: [Synth 8-256] done synthesizing module 'data_gen' (10#1) [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/data_gen.v:10]
+INFO: [Synth 8-256] done synthesizing module 'top' (11#1) [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter_Source_Code/src/top.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 470.543 ; gain = 152.504
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 470.543 ; gain = 152.504
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter/Transmitter.runs/synth_1/.Xil/Vivado-31160-DESKTOP-B3RT09T/dcp2/transmitter_in_context.xdc] for cell 'transmitter_inst'
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter/Transmitter.runs/synth_1/.Xil/Vivado-31160-DESKTOP-B3RT09T/dcp2/transmitter_in_context.xdc] for cell 'transmitter_inst'
+Parsing XDC File [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter/Transmitter.runs/synth_1/.Xil/Vivado-31160-DESKTOP-B3RT09T/dcp3/transmitter_system_clock_pll_in_context.xdc] for cell 'clock_inst/transmitter_system_clock_pll_inst'
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter/Transmitter.runs/synth_1/.Xil/Vivado-31160-DESKTOP-B3RT09T/dcp3/transmitter_system_clock_pll_in_context.xdc] for cell 'clock_inst/transmitter_system_clock_pll_inst'
+Parsing XDC File [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter/Transmitter.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter/Transmitter.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 849.297 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.297 ; gain = 531.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.297 ; gain = 531.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for clock_inst/transmitter_system_clock_pll_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for transmitter_inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.297 ; gain = 531.258
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg_reg' in module 'data_gen'
+INFO: [Synth 8-5546] ROM "prbs_send_reset" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "prbs_send_enable" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "counter_next" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "state_next" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                              000 |                              000
+              SEND_COMMA |                              001 |                              001
+               SEND_HEAD |                              010 |                              010
+               SEND_PRBS |                              011 |                              011
+               SEND_TAIL |                              100 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg_reg' using encoding 'sequential' in module 'data_gen'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 849.297 ; gain = 531.258
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 32    
++---Registers : 
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   5 Input     16 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clock 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module reset 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module PRBS_ANY 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 32    
++---Registers : 
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+Module data_gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   5 Input     16 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design top has port SFP_MGT_CLK_SET0 driven by constant 0
+WARNING: [Synth 8-3917] design top has port SFP_MGT_CLK_SET1 driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 849.297 ; gain = 531.258
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'transmitter_inst/gt0_txoutclkfabric_out' to pin 'transmitter_inst/bbstub_gt0_txoutclkfabric_out/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'transmitter_inst/gt0_txusrclk2_out' to pin 'transmitter_inst/bbstub_gt0_txusrclk2_out/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'transmitter_inst/gt0_txusrclk_out' to pin 'transmitter_inst/bbstub_gt0_txusrclk_out/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clock_inst/transmitter_system_clock_pll_inst/sys_clk' to pin 'clock_inst/transmitter_system_clock_pll_inst/bbstub_sys_clk/O'
+INFO: [Synth 8-5783] Moving clock source from hierarchical pin 'clock_inst/transmitter_system_clock_pll_inst/clk_in1' to 'clock_inst/dcm_locked_edge_reg/C'
+INFO: [Synth 8-5819] Moved 5 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 849.297 ; gain = 531.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 865.246 ; gain = 547.207
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 866.016 ; gain = 547.977
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 866.016 ; gain = 547.977
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 866.016 ; gain = 547.977
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 866.016 ; gain = 547.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 866.016 ; gain = 547.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 866.016 ; gain = 547.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 866.016 ; gain = 547.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------+----------+
+|      |BlackBox name                |Instances |
++------+-----------------------------+----------+
+|1     |transmitter                  |         1|
+|2     |transmitter_system_clock_pll |         1|
++------+-----------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------+------+
+|      |Cell                         |Count |
++------+-----------------------------+------+
+|1     |transmitter                  |     1|
+|2     |transmitter_system_clock_pll |     1|
+|3     |BUFG                         |     1|
+|4     |LUT1                         |     3|
+|5     |LUT2                         |    10|
+|6     |LUT3                         |    17|
+|7     |LUT4                         |    22|
+|8     |LUT5                         |     5|
+|9     |LUT6                         |     3|
+|10    |FDCE                         |     2|
+|11    |FDRE                         |    40|
+|12    |FDSE                         |    25|
+|13    |IBUF                         |     8|
+|14    |IBUFGDS                      |     1|
+|15    |OBUF                         |     4|
++------+-----------------------------+------+
+
+Report Instance Areas: 
++------+------------------+-------------+------+
+|      |Instance          |Module       |Cells |
++------+------------------+-------------+------+
+|1     |top               |             |   191|
+|2     |  syn_block_0     |syn_block__1 |     5|
+|3     |  syn_block_1     |syn_block__2 |     5|
+|4     |  syn_block_2     |syn_block__3 |     5|
+|5     |  syn_block_3     |syn_block__4 |     5|
+|6     |  clock_inst      |clock        |    18|
+|7     |    syn_block_0   |syn_block__5 |     5|
+|8     |    syn_block_1   |syn_block    |     5|
+|9     |  data_gen_inst   |data_gen     |    89|
+|10    |    PRBS_GENERATE |PRBS_ANY     |    70|
+|11    |  reset           |reset        |     4|
++------+------------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 866.016 ; gain = 547.977
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 866.016 ; gain = 169.223
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 866.016 ; gain = 547.977
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUFGDS => IBUFDS: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+49 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:42 . Memory (MB): peak = 870.254 ; gain = 563.688
+INFO: [Common 17-1381] The checkpoint 'C:/Users/KANG Jian/Desktop/Underwater_OOK/Transmitter/Transmitter.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.116 . Memory (MB): peak = 870.254 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 29 18:12:50 2018...

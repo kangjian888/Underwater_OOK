@@ -1,0 +1,13 @@
+transmitter_common_reset.v,verilog,xil_defaultlib,../../../../transmitter/transmitter_common_reset.v,
+transmitter_common.v,verilog,xil_defaultlib,../../../../transmitter/transmitter_common.v,
+transmitter_gt_usrclk_source.v,verilog,xil_defaultlib,../../../../transmitter/transmitter_gt_usrclk_source.v,
+transmitter_support.v,verilog,xil_defaultlib,../../../../transmitter/transmitter_support.v,
+transmitter_cpll_railing.v,verilog,xil_defaultlib,../../../../transmitter/transmitter_cpll_railing.v,
+transmitter_tx_startup_fsm.v,verilog,xil_defaultlib,../../../../transmitter/transmitter/example_design/transmitter_tx_startup_fsm.v,
+transmitter_rx_startup_fsm.v,verilog,xil_defaultlib,../../../../transmitter/transmitter/example_design/transmitter_rx_startup_fsm.v,
+transmitter_init.v,verilog,xil_defaultlib,../../../../transmitter/transmitter_init.v,
+transmitter_gt.v,verilog,xil_defaultlib,../../../../transmitter/transmitter_gt.v,
+transmitter_multi_gt.v,verilog,xil_defaultlib,../../../../transmitter/transmitter_multi_gt.v,
+transmitter_sync_block.v,verilog,xil_defaultlib,../../../../transmitter/transmitter/example_design/transmitter_sync_block.v,
+transmitter.v,verilog,xil_defaultlib,../../../../transmitter/transmitter.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

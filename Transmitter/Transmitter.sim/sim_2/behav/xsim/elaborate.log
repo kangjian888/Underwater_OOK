@@ -1,0 +1,43 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: F:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 2c3ad86ebd244d95b223c67c15e1bda5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.FDRE_default
+Compiling module xil_defaultlib.syn_block
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.IBUFGDS
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.PLLE2_ADV(BANDWIDTH="HIGH",CLKFB...
+Compiling module xil_defaultlib.transmitter_system_clock_pll_clk...
+Compiling module xil_defaultlib.transmitter_system_clock_pll
+Compiling module xil_defaultlib.clock
+Compiling module xil_defaultlib.reset
+Compiling module unisims_ver.IBUFDS_GTE2
+Compiling module xil_defaultlib.transmitter_GT_USRCLK_SOURCE
+Compiling module unisims_ver.BUFH
+Compiling module xil_defaultlib.transmitter_cpll_railing_default
+Compiling secureip modules ...
+Compiling module unisims_ver.GTPE2_COMMON(BIAS_CFG=64'b010100...
+Compiling module xil_defaultlib.transmitter_common(SIM_PLL0REFCL...
+Compiling module xil_defaultlib.transmitter_common_reset(STABLE_...
+Compiling secureip modules ...
+Compiling module unisims_ver.GTPE2_CHANNEL(ALIGN_COMMA_ENABLE...
+Compiling module xil_defaultlib.transmitter_GT(GT_SIM_GTRESET_SP...
+Compiling module xil_defaultlib.transmitter_multi_gt(WRAPPER_SIM...
+Compiling module unisims_ver.FD
+Compiling module xil_defaultlib.transmitter_sync_block
+Compiling module xil_defaultlib.transmitter_TX_STARTUP_FSM(STABL...
+Compiling module xil_defaultlib.transmitter_init_default
+Compiling module xil_defaultlib.transmitter_support
+Compiling module xil_defaultlib.transmitter
+Compiling module xil_defaultlib.PRBS_ANY(INV_PATTERN=1,POLY_LENG...
+Compiling module xil_defaultlib.data_gen(PRBS_LENGTH=20)
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
